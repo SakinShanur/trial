@@ -1,0 +1,72 @@
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+  }
+  .login-container {
+    text-align: center;
+    margin-top: 50px;
+    display: none;
+  }
+  #am {
+
+  }
+  #dis{
+    display: none;
+  }
+  .button {
+    margin: 10;
+    padding: 10;
+  }
+  .color{
+    background-color: green;
+  }
+  
+  .wrong-button, .correct-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .wrong-button {
+    background-color: red;
+    color: white;
+  }
+  
+  .correct-button {
+    background-color: red;
+    color: white;
+  }
+  
+  .disabled-button {
+    opacity: 0.5;
+    pointer-events: none;
+  }
+
+  /* Add your desired CSS styles here */
+.password-container {
+    text-align: center;
+  }
+
+.popup-text {
+    visibility: hidden;
+    opacity: 0;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    transition: all 0.5s ease-in-out;
+  }
+  
+  .popup-text.show {
+    visibility: visible;
+    opacity: 1;
+  }
+
