@@ -5,6 +5,10 @@
     align-items: center;
     height: 150px;
   }
+img{
+    width:150px;
+    height:100px;
+}
   .login-container {
     text-align: center;
     margin-top: 50px;
