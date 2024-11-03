@@ -6,8 +6,9 @@
     height: 150px;
   }
 img{
-    width:150px;
-    height:100px;
+    width:10%;
+    height:7%;
+    align-item: center;
 }
   .login-container {
     text-align: center;
